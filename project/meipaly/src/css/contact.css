@@ -1,0 +1,74 @@
+.contact__content{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+
+}
+.contact__container{
+    max-width: 120rem;
+  margin: 0 auto;
+}
+
+.contact__content{
+    display: flex;
+    gap:1rem;
+}
+.contact__map{
+    width:60%;
+}
+    
+.contact__map iframe{
+    width: 70%;
+}
+
+.contact__content form {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.contact__content .username,
+.contact__content .email {
+    width: 100%;
+    padding: 1.6rem 1.2rem;
+    font-size: 2rem;
+    border-radius: .6rem;
+
+}
+
+
+.contact__content .username:focus,
+.contact__content .email:focus {
+    outline: .4rem solid blue;
+    outline-offset:  2px;
+}
+
+
+.contact__container textarea{
+    resize: vertical;
+
+    min-height: 5rem;
+    max-height: 30rem;
+    padding: 1.6rem 1.2rem;
+    font-size: 2rem;
+}
+.contact__content button {
+    background-color: black;
+    border: none;
+    padding: 2rem 3rem;
+    color: white;
+    font-size: 2rem;
+    transition: background-color 0.3s linear;
+
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.contact__content button:hover {
+    background-color: #e62b4a;
+}

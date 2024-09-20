@@ -1,0 +1,163 @@
+.showcase {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+
+
+
+.showcase__content{
+    text-align: center;
+}
+
+.showcase__desc{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #888888;
+}
+
+    
+.showcase__gallery{
+    display: grid;
+   /* grid-template-columns: 100px 200px 300px;*/
+   /* grid-template-columns: calc (100%/ 3) calc(100%/ 3) calc(100%/ 3);*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /* fr: ❌ */
+  /* grid-template-rows: 100px 200px; */
+     /* gap: dọc ngang */
+  /* gap: 1rem 2rem; */
+    gap: 2rem;
+}
+
+
+.gallery__item img{
+    height: 40.8em;
+    /* Chỉnh lại size hình cho phù hợp với kích thước thẻ cha */
+    object-fit: cover;
+    /* chinh sua nen anh */
+    filter: grayscale(50%) contrast(50%);
+}
+
+.gallery__item {
+    position: relative;
+  }
+  
+  .gallery__item .item__overlay {
+    /* width: 100px;
+    height: 100px; */
+    
+    position: absolute;
+    /* Level 1: */
+    /*top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
+
+     /* Level 2: */
+  /* Muốn kích thước full widht + height theo cha */
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+
+   /* Level 3: */
+   inset: 0;
+
+   transition: all 0.3s linear;
+   will-change: background-color;
+
+
+  } 
+
+
+.gallery__item:hover .item__overlay{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+/* Opacity */
+/* .gallery__item .item__overlay {
+  position: absolute;
+
+  background-color: red;
+  opacity: 0;
+
+  inset: 0;
+
+  transition: all 0.3s linear;
+  will-change: opacity;
+}
+
+.gallery__item:hover .item__overlay {
+  opacity: 0.5;
+} */
+
+.overlay__icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.overlay__text{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    
+
+}
+
+.overlay__zoom{
+    color:black;
+    background-color: white;
+    width: 4.5rem;
+    height:4.5rem;
+    border:none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s linear;
+    will-change: color background-color;
+}
+
+.overlay__zoom i{
+    font-size: 2.5rem;
+}
+
+.overlay__zoom:hover{
+    color:white;
+    background-color: black;
+
+}
+
+.overlay__text p{
+    color:#D0C7C8;
+}
+
+.overlay__text h3{
+    margin-bottom: 0;
+}
+.overlay__icon,
+.overlay__text{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s linear;
+    will-change: color , background-color;
+    
+}
+
+
+.gallery__item:hover .overlay__text,
+.gallery__item:hover .overlay__icon{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+
+#showcase h2.title{
+    background: linear-gradient(45deg,#09009f,#00ff95);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

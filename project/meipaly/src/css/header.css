@@ -1,0 +1,100 @@
+header{
+    border-bottom:0.1rem solid black ;
+    padding: 40px 0;
+
+    position: absolute;
+    width:100%;
+
+    transition: color 2s linear;
+}
+ 
+
+
+
+header .wrapper {
+    display: flex;
+
+/* Chia khoảng cách của các phần tử */
+    justify-content: space-between;
+    align-items: center;
+
+    /* border-bottom: 0.1rem solid black; */
+
+
+  } 
+ 
+ 
+ 
+ header .header__logo {
+    text-decoration: none;
+    color: white;
+    font-size: 3.2rem;
+
+    transition: color 2s linear;
+    will-change: color;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    gap: 3rem;
+
+
+  }
+  
+  header nav li {
+    text-transform: uppercase;
+  }
+
+ header nav li a {
+    text-decoration: none;
+    color:white;
+
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    display: block;
+
+    transition: color 2s linear;
+ }
+
+ .container{
+   width: 75%;
+   margin: 0 auto;
+   
+   justify-content: space-between;
+   align-items: center;
+
+    max-width: 144rem;
+
+    
+ }
+
+.container li.active a{
+  color: #e62b4a;
+
+}
+
+header nav li a:hover{
+  color: #e62b4a;
+}
+ 
+header .header__logo:hover{
+  color: red;
+}
+
+header{
+  transition: all 0.3s linear;
+  will-change: background;
+}
+
+header:hover{
+  background-color:black;
+
+}
+
+header:hover .header__logo{
+  color:red;
+}

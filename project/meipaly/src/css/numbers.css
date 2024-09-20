@@ -1,0 +1,26 @@
+#numbers {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: black;
+}
+
+.numbers__wrapper {
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.number_item{
+    width: 200px;
+}
+.number_item .num {
+    font-size: 6rem;
+    margin:0;
+}
+
+.number_item .text {
+    font-size: 2rem;
+}

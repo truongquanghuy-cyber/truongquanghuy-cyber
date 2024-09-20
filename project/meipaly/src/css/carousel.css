@@ -1,0 +1,132 @@
+.carousel {
+    background-image: url(/public/img/home_slider.jpg);
+    background-size: cover;
+    background-position: center;
+    height : 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel_content{
+    text-align: center;
+
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 40px;
+    
+}
+
+h1{
+    font-size: 90px;
+    line-height: 105px;
+    
+}
+
+button{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #e62b4a;
+    color:white;
+    border:1px solid #e62b4a;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* giup chay smooth more */
+    will-change: background-color color; 
+}
+
+button:hover{
+    background-color: #6f0012;
+}
+
+.carousel_scroll i{
+    margin-top: 50px;
+    font-size: 30px;
+    animation: arrowDown 1s linear 0s infinite;
+
+}
+
+.fa, .fas{
+    font-weight: 900;
+}
+
+.fa, .far, .fas{
+    font-family:"Font Awesome 5 Free"
+
+}
+
+.fa, .fab, .fad, .fal, .far, .fas{
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+}
+
+@keyframes arrowDown{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    to{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+/*.carousel p{
+    transition: color 1s linear;
+}*/
+
+
+
+
+/*.carousel p:hover{
+    color:red;
+}*/
+
+
+.carousel h1{
+    transition: all 1s linear;
+    will-change: color;
+}
+
+.carousel h1:hover{
+    color:red;
+}
+
+.carousel p:hover + .carousel h1{
+    transition: all 1s linear;
+    will-change: color;
+}
+
+
+
+
+.carousel p:hover + .carousel h1{
+    color:red;
+
+}
+
+/* Animations
+
+
+
+
+
+*/

@@ -1,0 +1,185 @@
+{
+    "id": "271729819801",
+    "title": "MEN",
+    "productVariants": [{
+        "price": {
+            "amount": 19.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Orange Tonic Men's Sandals DEMH00400CAM (Orange)",
+            "vendor": "Biti's",
+            "id": "7747178365169",
+            "untranslatedTitle": "Biti's Hunter Orange Tonic Men's Sandals DEMH00400CAM (Orange)",
+            "url": "\/products\/bitis-hunter-orange-tonic-mens-sandals-demh00400cam-orange",
+            "type": "Footwear"
+        },
+        "id": "43039790104817",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/00400cam__5__079dfa889a6e4bd49090aa9de80c61b8.jpg?v=1658821832"
+        },
+        "sku": "DEMH00400CAM39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 31.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Street Mid Americano Men's SneakersDSMH03600DEN (Black)",
+            "vendor": "Biti's",
+            "id": "7747173351665",
+            "untranslatedTitle": "Biti's Hunter Street Mid Americano Men's SneakersDSMH03600DEN (Black)",
+            "url": "\/products\/bitis-hunter-street-mid-americano-mens-sneakersdsmh03600den-black",
+            "type": "Footwear"
+        },
+        "id": "43039771394289",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/dsmh03600__4__635fba02a403477fb8f869446669629e.jpg?v=1658822353"
+        },
+        "sku": "DSMH03600DEN39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 14.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti\u2019s Hunter Men Sandal DRM042200XNH (Blue)",
+            "vendor": "Biti's",
+            "id": "7847277363441",
+            "untranslatedTitle": "Biti\u2019s Hunter Men Sandal DRM042200XNH (Blue)",
+            "url": "\/products\/biti-s-hunter-men-sandal-drm042200xnh-blue",
+            "type": "Footwear"
+        },
+        "id": "43435272077553",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/drm042200xnh_4_e1a7031a24c24d67bdb6a0b3b6a87ee0.jpg?v=1667375133"
+        },
+        "sku": "DRM042200XNH38",
+        "title": "6",
+        "untranslatedTitle": "6"
+    }, {
+        "price": {
+            "amount": 32.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Core DSMH09400XAM (Grey)",
+            "vendor": "Biti's",
+            "id": "7847277691121",
+            "untranslatedTitle": "Biti's Hunter Core DSMH09400XAM (Grey)",
+            "url": "\/products\/bitis-hunter-core-dsmh09400xam-grey",
+            "type": "Footwear"
+        },
+        "id": "43435273027825",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/dsmh09400xam__3__eeef3296002343be9edb94d69b9fa189.jpg?v=1667375163"
+        },
+        "sku": "DSMH09400XAM39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 54.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Street x VietMax | Vietnam Arising R8 Black Men's sneaker DSMH05700DEN",
+            "vendor": "Biti's",
+            "id": "7847277625585",
+            "untranslatedTitle": "Biti's Hunter Street x VietMax | Vietnam Arising R8 Black Men's sneaker DSMH05700DEN",
+            "url": "\/products\/bitis-hunter-street-x-vietmax-vietnam-arising-r8-black-mens-sneaker-dsmh05700den",
+            "type": "Footwear"
+        },
+        "id": "43435272798449",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/03_9eb0ee34c5f34c25b1a22a3a007e0339.jpg?v=1667375153"
+        },
+        "sku": "DSMH05700DEN39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 40.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti\u2019s Hunter X Americano Men's sneaker DSMH03400DEN (Black)",
+            "vendor": "Biti's",
+            "id": "7847277527281",
+            "untranslatedTitle": "Biti\u2019s Hunter X Americano Men's sneaker DSMH03400DEN (Black)",
+            "url": "\/products\/biti-s-hunter-x-americano-mens-sneaker-dsmh03400den-black",
+            "type": "Footwear"
+        },
+        "id": "43435272503537",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/dsmh03400-den__2_-2_45b846279af440b58f83ed58a64f2c17.jpg?v=1667375146"
+        },
+        "sku": "DSMH03400DEN39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 32.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Core Men's sneaker DSMH09400XNH (Blue)",
+            "vendor": "Biti's",
+            "id": "7823777071345",
+            "untranslatedTitle": "Biti's Hunter Core Men's sneaker DSMH09400XNH (Blue)",
+            "url": "\/products\/bitis-hunter-core-mens-sneaker-dsmh09400xnh-blue",
+            "type": "Footwear"
+        },
+        "id": "43336286077169",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/dsmh09400xnh__3__9252d30b6eb4469c8329015c9c192fa2.jpg?v=1664530566"
+        },
+        "sku": "DSMH09400XNH39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 29.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti\u2019s Hunter Core Z Collection Stone Men's sneaker DSMH06400DEN (Black)",
+            "vendor": "Biti's",
+            "id": "7823776710897",
+            "untranslatedTitle": "Biti\u2019s Hunter Core Z Collection Stone Men's sneaker DSMH06400DEN (Black)",
+            "url": "\/products\/biti-s-hunter-core-z-collection-stone-mens-sneaker-dsmh06400den-black",
+            "type": "Footwear"
+        },
+        "id": "43336284143857",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/dsc_0017_f4b06408733349ea8caf086d39318117.jpg?v=1664530544"
+        },
+        "sku": "DSMH06400DEN39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }, {
+        "price": {
+            "amount": 32.99,
+            "currencyCode": "USD"
+        },
+        "product": {
+            "title": "Biti's Hunter Core Men's sneaker DSMH09400DEN (Black)",
+            "vendor": "Biti's",
+            "id": "7823776907505",
+            "untranslatedTitle": "Biti's Hunter Core Men's sneaker DSMH09400DEN (Black)",
+            "url": "\/products\/bitis-hunter-core-mens-sneaker-dsmh09400den-black",
+            "type": "Footwear"
+        },
+        "id": "43336285094129",
+        "image": {
+            "src": "\/\/bitis.com\/cdn\/shop\/products\/09400den__3__7ea25cfeb017405da34adb0121eb31a1.jpg?v=1664530555"
+        },
+        "sku": "DSMH09400DEN39",
+        "title": "6.5",
+        "untranslatedTitle": "6.5"
+    }]
+}

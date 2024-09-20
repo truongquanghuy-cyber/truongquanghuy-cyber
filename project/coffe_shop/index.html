@@ -1,0 +1,267 @@
+<!-- Cấu trúc file html
+Template HTML hoàn chỉnh là như thế nào?
+Gõ: !
+
+<!DOCTYPE html>: Định nghĩa version của file HTML - Version 5. Giúp trình duyệt hiển thị chính xác nhất.
+
+2 loại thẻ trong HTML:
+- Thẻ mở + thẻ đóng. Chớ các thẻ/nội dung bên trong.
+- Chỉ có thẻ mở, thẻ khuyết. Không chứa nội dung bên trong.
+
+html: Root - thẻ chính của một trang web
+head: Thông tin của trang web - Không hiển thị lên trên giao diện.
+body: Hiển thị nội dung lên trên giao diện. -->
+
+<!-- comment: ctrl + / -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="cafe, cà phê, giải khát" />
+    <link rel="icon" href="./img/favicon.ico" />
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+    <!-- Alt + Shift + mũi tên xuống: Copy line down -->
+    <!-- Ctrl + D: tìm kiếm chuỗi giống với lần bôi đen trước đó. -->
+    <!-- Để sinh ra nhiều con trỏ chuột: thì dùng alt + click -->
+
+    <!-- Heading -->
+    <!-- 
+    Thuộc tính của thẻ: Biểu diễn màu sắc, vị trí của thẻ trên giao diện, kích thước, ...
+    - style: màu sắc. 
+    + "thuộc_tính: giá_trị_thuộc_tính; thuộc_tính: giá_trị_thuộc_tính; thuộc_tính: giá_trị_thuộc_tính"
+    - 
+     -->
+    <h1 id="top" style="color: red; background-color: #394a59; text-align: left">
+        CyberSoft Café
+    </h1>
+    <!-- màu xanh lá chuối: green -->
+    <h2 style="color: green; text-align: right">CyberSoft Café</h2>
+    <!-- màu xanh da trời: blue -->
+    <h3 style="color: blue; text-align: center">CyberSoft Café</h3>
+
+    <!-- Cho thẻ màu như trang shopee, canh bên trái, nội dung: Shopee, thẻ h2 -->
+
+    <h2 style="background-color: #f6402e; color: white; text-align: left">
+        Shopee
+    </h2>
+
+    <h4>CyberSoft Café</h4>
+    <h5>CyberSoft Café</h5>
+    <h6>CyberSoft Café</h6>
+
+
+    <!-- Thẻ liên kết: a  -->
+
+    <!-- Liên kết ngoại -->
+    <!-- 
+        attribute: target:
+        + _blank: tạo ra một tab trang web khác.
+        + _self: thay thế trang web hiện tại (mặc định - default)
+     -->
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://www.youtube.com/" target="_self">Youtube</a>
+
+
+    <!-- BT: Liên kết đến trang highland, nội dung của thẻ là chữ: Highland Coffee -->
+    <a href="https://www.highlandscoffee.com.vn/" target="_blank">Highland Coffee</a>
+
+    <!-- Liên kết nội -->
+    <a href="#">Home</a>
+    <!-- Liên kết đến html element -->
+    <a href="#special">Menu</a>
+    <!-- # trỏ đến attribute id của element -->
+    <a href="#order">Order</a>
+
+    <!-- Liên kết đến các file html -->
+    <a href="./about.html">About</a>
+
+    <a href="./contact.html">Contact</a>
+
+
+    <!-- Đơn vị đo -->
+    <!-- 
+        tuyệt đối:
+        px
+    -->
+    <!-- 
+        Tương đối:
+        %: phụ thuộc vào kích thước width, của cha chứa nó.
+    -->
+
+    <!-- 
+        color:
+        - hex: #808080
+        - rbg: 
+        - rbga:
+        - hsl:
+    -->
+    <hr size="5px" color="#808080" width="50%" align="center">
+
+    <h2 style="color: #996633;">About our café</h2>
+
+    <!-- paragraph: Đoạn văn -->
+    <!-- lorem: để sinh ra những chữ ngẫu nhiên -->
+    <!-- lorem5 + enter: sinh ra 5 chữ ngẫu nhiên -->
+    <!-- lorem10 + enter: sinh ra 10 chữ ngẫu nhiên -->
+    <!-- br: break line: ngắt dòng -->
+    <p style="text-align: right;">
+        <!-- màu nên: vàng, chữ màu trắng -->
+        <span style="color: white; background-color: yellowgreen;">Lorem ipsum dolor sit,</span> amet consectetur
+        adipisicing elit. <b>Omnis, earum?</b><br>
+        <br>
+        <br>
+        <i>Lorem</i> ipsum dolor sit amet.<br>
+
+
+        <u>Lorem ipsum</u> dolor sit amet consectetur adipisicing elit. Omnis accusamus hic ad pariatur explicabo
+        sit!<br>
+
+        <!-- Vừa in nghiêng + in đậm -->
+        <b>
+            <i>
+                Lorem ipsum dolor sit amet consectetur adipisicing <span style="color:red">elit.</span>
+            </i>
+        </b>
+    </p>
+    <!-- window + shift + s -->
+
+    <!-- pre: giúp giữ khoảng trống và line break. như mong muốn khi code. -->
+    <pre>
+        Lorem ipsum dolor sit amet.
+        
+        Lorem ipsum dolor sit
+                  amet.
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet.
+    </pre>
+
+
+    <hr size="5px" color="#808080" width="50%" align="center">
+    <div id="special">
+        <h2 style="color: #996633; text-align: center;">Special Items</h2>
+
+        <h3>The coffee list 1</h3>
+
+        <!-- 
+            order list: ol
+            un-order list: ul
+          -->
+
+        <ul type="square">
+            <li>Black coffee</li>
+            <li>Pink coffee</li>
+            <li>Green</li>
+        </ul>
+
+        <!-- image -->
+        <!-- img -->
+
+        <!-- Tuyệt đối -->
+        <img src="https://imgs.search.brave.com/CLdHBeJf1HLi297CJJ0sijr8HKmBKUxAZK8D1wH7Kmw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGlnaXRhbG9jZWFu/LmNvbS9hcGkvc3Rh/dGljLWNvbnRlbnQv/djEvaW1hZ2VzP3Ny/Yz1odHRwczovL2Nv/bW11bml0eS1jZG4t/ZGlnaXRhbG9jZWFu/LWNvbS5nbG9iYWwu/c3NsLmZhc3RseS5u/ZXQvaWN3Q2VzcEFI/Rm5Lb0NyYXZ6N2Ra/cWY0JndpZHRoPTE5/MjA.jpeg"
+            width="400px">
+
+        <!-- Tương đối -->
+        <!-- ctrl + space: hiển thị gợi ý -->
+        <img src="./img/chilling-cafe-01.jpg" width="400px">
+
+
+        <h3>The coffe list 2</h3>
+        <ol type="I" start="5">
+            <li>Soft Deli Cup</li>
+            <li>Coffe Art</li>
+            <li>Special Tea</li>
+        </ol>
+
+        <img src="./img/chilling-cafe-13.jpg" width="800px">
+    </div>
+
+    <!-- div: block - khối -->
+
+    <hr size="5px" color="#808080" width="50%" align="center">
+    <div>
+        <h2 style="color: #996633;">Menu</h2>
+
+        <table border="1px">
+            <thead>
+                <!-- row -->
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Traditional Coffee</td>
+                    <td rowspan="2">Vietnamese coffee pin</td>
+                    <td>Hot</td>
+                    <td>60.000</td>
+                </tr>
+
+                <tr>
+                    <td>Cold</td>
+                    <td>28.000</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">milk coffee</td>
+                    <td>Hot</td>
+                    <td>38.000</td>
+                </tr>
+
+                <tr>
+                    <td>Cold</td>
+                    <td>54.000</td>
+                </tr>
+
+
+                <tr>
+                    <td rowspan="3">Expresso</td>
+                    <td>Amecian Coffee</td>
+                    <td rowspan="3">Hot</td>
+                    <td>110.000</td>
+                </tr>
+
+                <tr>
+                    <td>Machiato</td>
+                    <td rowspan="2">40.000</td>
+                </tr>
+
+                <tr>
+                    <td>Cappuchino</td>
+                </tr>
+
+
+
+
+
+            </tbody>
+        </table>
+
+    </div>
+    <hr size="5px" color="#808080" width="50%" align="center">
+
+    <!-- Kế thừa: cha có gì thì con sẽ kế thừa những property của cha. -->
+    <div id="order" style="text-align: center;">
+        <h2 style="color: #996633;">Talk to us</h2>
+
+        <p>
+            Reach us via <b>Email:</b>
+            <!-- a:mail -->
+            <a href="mailto:cybercafe@gmail.com">cybercafe@gmail.com</a>
+            or <b>Hotline:</b>
+            <!-- a:tel -->
+            <a href="tel:+1234567890">1234567890</a>. Thank you
+        </p>
+    </div>
+
+    <a href="#top">Back to top</a>
+</body>
+
+</html>

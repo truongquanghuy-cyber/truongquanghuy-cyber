@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* px: tuyệt đối */
+/* %, rem: tương đối */
+
+/**
+1rem = 16px
+?    = 50px
+*/
+/**
+    rem: phụ thuộc vào font-size của thẻ html
+*/
+
+/* Mặc định của trình duyệt: 16px */
+html {
+  /* Để dễ tính toán đơn vị rem */
+  font-size: 10px;
+}
+
+body {
+  /* Khôi phục là kích thước font-size mặc định của trình duyệt: 16px */
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  color : white;
+  background-color: black;
+}
+
+header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(red, green, blue, alpha);
+  padding: 26px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+section {
+  text-align:center;
+  padding:90px 0;
+  background-color: black;
+  
+}
+
+.desc{
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  word-spacing: 1rem;
+}
+
+p.desc {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  word-spacing: 1rem;
+  text-align: center;
+}
+
+p.sub{
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+h2.title{
+  font-size: 5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.clr-danger{
+  color:#e62b4a;
+
+}
+
+.clr-white{
+  color:white;
+}
+
+.clr-gray{
+  color:#888888;
+}
