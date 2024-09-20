@@ -1,0 +1,77 @@
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+  html {
+    /* Để dễ tính toán đơn vị rem
+    font-size: 10px;
+  }
+
+
+
+
+ .body {
+    width: 1000px;
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #151937;
+    color: #fff;
+  }
+  
+
+  
+  header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(red, green, blue, alpha);
+    padding: 26px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+  */
+
+body {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color : white;
+  background-color: #151937;
+}
+
+header {
+  color: white;
+  padding: 20px;
+}
+
+section.exchange {
+  flex: 1;
+  padding: 50px 0;
+  
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button__gardient {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+ 
